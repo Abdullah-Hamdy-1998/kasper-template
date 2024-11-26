@@ -91,6 +91,15 @@ header nav a {
   padding: 40px 0;
   color: #fefbfc;
   text-decoration: none;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  z-index: 2;
+}
+
+header nav a:hover, header nav a.active {
+  color: #00c7fc;
+  border-color: #00c7fc;
 }
 
 header nav .form {
@@ -104,7 +113,7 @@ header .form i {
   color: #dad6d7;
   position: absolute;
   top: 15px;
-  right:0;
+  right: 0;
   transform: translateY(-50%);
 }
 
