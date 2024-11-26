@@ -54,6 +54,8 @@ ul {
 header .container{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 header .logo img{
@@ -62,5 +64,15 @@ header .logo img{
 
 header .container nav{
   flex: 1;
+}
+
+header .container::after{
+  content: '';
+  position: absolute;
+  background-color: #726f71;
+  height: 2px;
+  width: calc(100% - 30px);
+  left: 15px;
+  bottom: 0;
 }
 /* End Header */
