@@ -56,6 +56,10 @@ header .container{
   justify-content: space-between;
 }
 
+header .logo img{
+  width: 150px;
+} 
+
 header .container nav{
   flex: 1;
 }
