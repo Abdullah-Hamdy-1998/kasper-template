@@ -19,7 +19,7 @@ ul {
   list-style: none;
 }
 
-.container{
+.container {
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -51,22 +51,22 @@ ul {
 /* End Global Rules */
 
 /* Start Header */
-header .container{
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
 
-header .logo img{
-  width: 150px;
-} 
+header .logo img {
+  height: 40px;
+}
 
-header .container nav{
+header .container nav {
   flex: 1;
 }
 
-header .container::after{
+header .container::after {
   content: '';
   position: absolute;
   background-color: #726f71;
@@ -75,4 +75,5 @@ header .container::after{
   left: 15px;
   bottom: 0;
 }
+
 /* End Header */
