@@ -67,7 +67,8 @@ header .container nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
+  align-items: center;
+  gap: 100px;
 }
 
 header .container::after {
@@ -92,6 +93,19 @@ header nav a {
   text-decoration: none;
 }
 
+header nav .form {
+  width: 40px;
+  height: 30px;
+  border-left: 1px solid #dad6d7;
+  position: relative;
+}
 
+header .form i {
+  color: #dad6d7;
+  position: absolute;
+  top: 15px;
+  right:0;
+  transform: translateY(-50%);
+}
 
 /* End Header */
