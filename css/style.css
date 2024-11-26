@@ -85,6 +85,13 @@ header nav ul {
   gap: 40px;
 }
 
+header nav a {
+  display: block;
+  padding: 40px 0;
+  color: #fefbfc;
+  text-decoration: none;
+}
+
 
 
 /* End Header */
