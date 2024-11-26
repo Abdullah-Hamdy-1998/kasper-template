@@ -49,3 +49,14 @@ ul {
 }
 
 /* End Global Rules */
+
+/* Start Header */
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container nav{
+  flex: 1;
+}
+/* End Header */
