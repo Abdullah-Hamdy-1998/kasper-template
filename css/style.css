@@ -68,7 +68,8 @@ header .container nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 100px;
+  gap: 30px;
+  min-height: 98px;
 }
 
 header .container::after {
