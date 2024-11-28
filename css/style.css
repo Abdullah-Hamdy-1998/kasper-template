@@ -86,9 +86,21 @@ header .toggle-menu {
   font-size: 24px;
 }
 
+@media (min-width: 768px) {
+  header .toggle-menu {
+    display: none;
+  }
+}
+
 header nav ul {
   display: flex;
   gap: 40px;
+}
+
+@media (max-width: 767px) {
+  header nav ul {
+    display: none;
+  }
 }
 
 header nav a {
