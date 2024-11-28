@@ -81,6 +81,11 @@ header .container::after {
   bottom: 0;
 }
 
+header .toggle-menu {
+  color: #fefbfc;
+  font-size: 24px;
+}
+
 header nav ul {
   display: flex;
   gap: 40px;
