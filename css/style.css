@@ -190,6 +190,12 @@ header .form i {
   background-color: var(--transparent-color);
   padding: 50px;
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.landing .content {
+  max-width: 500px;
 }
 
 /* End Landing */
