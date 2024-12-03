@@ -226,4 +226,22 @@ header .form i {
   right: 30px;
 }
 
+.landing .bullets {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+.landing .bullets li {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.landing .bullets :active {}
+
 /* End Landing */
