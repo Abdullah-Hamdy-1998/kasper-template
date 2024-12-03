@@ -19,7 +19,6 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #383838;
 }
 
 ul {
@@ -57,11 +56,11 @@ ul {
 
 /* End Global Rules */
 /* Start Components */
-.main-heading{
- text-align: center;
+.main-heading {
+  text-align: center;
 }
 
-.main-heading h2{
+.main-heading h2 {
   font-size: 40px;
   font-weight: normal;
   text-transform: uppercase;
@@ -69,15 +68,20 @@ ul {
   position: relative;
 }
 
-.main-heading h2::before{
-  
+.main-heading h2::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+  height: 2px;
+  width: 120px;
+  background-color: #333;
 }
-.main-heading h2::after{
-  
-}
-.main-heading p{
-  
-}
+
+.main-heading h2::after {}
+
+.main-heading p {}
 
 /* End Components */
 /* Start Header */
@@ -224,10 +228,11 @@ header .form i {
 }
 
 @media (max-width: 767px) {
-  .landing .text{
+  .landing .text {
     width: 100%;
   }
-  .landing .content{
+
+  .landing .content {
     max-width: 100%;
   }
 }
