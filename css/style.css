@@ -228,6 +228,12 @@ header .form i {
   transform: translateY(-50%);
 }
 
+@media (max-width: 767px) {
+  .landing .arrows {
+    display: none;
+  }
+}
+
 .landing .arrow-left {
   left: 30px;
 }
