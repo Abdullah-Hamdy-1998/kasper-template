@@ -1,7 +1,8 @@
 /* Start Variables */
-:root{
+:root {
   --transparent-color: rgb(15 116 145 /70%)
 }
+
 /* End Variables*/
 /* Start Global Rules */
 * {
@@ -198,16 +199,31 @@ header .form i {
   max-width: 500px;
 }
 
-.landing h2{
+.landing h2 {
   font-size: 32px;
   font-weight: normal;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.landing p{
+.landing p {
   font-size: 16px;
   line-height: 2;
+}
+
+.landing .arrows {
+  position: absolute;
+  color: #fefbfc;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.landing .arrow-left {
+  left: 30px;
+}
+
+.landing .arrow-right {
+  right: 30px;
 }
 
 /* End Landing */
