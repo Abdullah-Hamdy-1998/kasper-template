@@ -166,6 +166,7 @@ header .form i {
 /* End Header */
 
 /* Start Landing */
+
 .landing {
   min-height: 100vh;
   background-image: url(../images/pxfuel.jpg);
@@ -242,6 +243,9 @@ header .form i {
   border-radius: 50%;
 }
 
-.landing .bullets :active {}
+.landing .bullets .active {
+  background-color: #00c7fc;
+  border-color: #00c7fc;
+}
 
 /* End Landing */
