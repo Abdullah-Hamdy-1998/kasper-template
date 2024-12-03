@@ -62,7 +62,11 @@ ul {
 }
 
 .main-heading h2{
-  
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  position: relative;
 }
 
 .main-heading h2::before{
