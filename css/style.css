@@ -200,6 +200,15 @@ header .form i {
   max-width: 500px;
 }
 
+@media (max-width: 767px) {
+  .landing .text{
+    width: 100%;
+  }
+  .landing .content{
+    max-width: 100%;
+  }
+}
+
 .landing h2 {
   font-size: 32px;
   font-weight: normal;
