@@ -338,4 +338,15 @@ header .form i {
   margin-bottom: 20px;
 }
 
+.services .service h3 {
+  font-weight: normal;
+  color: #00c7fc;
+  margin-bottom: 20px;
+}
+
+.services .service p {
+  line-height: 1.5;
+  color: #b0acae;
+}
+
 /* End Services */
