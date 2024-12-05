@@ -317,7 +317,6 @@ header .form i {
 
 .services .service {
   display: flex;
-  align-items: center;
 }
 
 .services .service i{
