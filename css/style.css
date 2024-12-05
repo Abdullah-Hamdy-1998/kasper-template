@@ -332,4 +332,8 @@ header .form i {
   text-align: center;
 }
 
+.services .service h3 {
+  margin-bottom: 20px;
+}
+
 /* End Services */
