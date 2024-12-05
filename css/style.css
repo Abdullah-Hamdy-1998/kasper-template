@@ -317,6 +317,12 @@ header .form i {
 
 .services .service {
   display: flex;
+  align-items: center;
+}
+
+.services .service i{
+  width: 60px;
+  text-align: center;
 }
 
 /* End Services */
