@@ -315,11 +315,16 @@ header .form i {
   padding: 100px 0;
 }
 
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
 .services .service {
   display: flex;
 }
 
-.services .service i{
+.services .service i {
   width: 60px;
   text-align: center;
 }
