@@ -322,6 +322,7 @@ header .form i {
 
 .services .service {
   display: flex;
+  gap: 90px;
 }
 
 .services .service i {
