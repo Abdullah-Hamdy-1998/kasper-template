@@ -333,6 +333,8 @@ header .form i {
 }
 
 .services .service h3 {
+  font-weight: normal;
+  color: #00c7fc;
   margin-bottom: 20px;
 }
 
