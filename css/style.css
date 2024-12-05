@@ -315,4 +315,8 @@ header .form i {
   padding: 100px 0;
 }
 
+.services .service {
+  display: flex;
+}
+
 /* End Services */
