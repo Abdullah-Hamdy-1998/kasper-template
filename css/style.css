@@ -324,7 +324,14 @@ header .form i {
 
 .services .service {
   display: flex;
-  gap: 90px;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .services .service {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .services .service i {
