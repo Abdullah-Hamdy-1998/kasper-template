@@ -360,6 +360,7 @@ header .form i {
   height: 600px;
   position: relative;
   display: flex;
+  align-items: center;
 }
 
 .design::before {
