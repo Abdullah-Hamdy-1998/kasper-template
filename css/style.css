@@ -391,6 +391,16 @@ header .form i {
   padding: 50px;
 }
 
+@media (max-width: 767px) {
+  .design .image {
+    display: none;
+  }
+
+  .design .text {
+    width: 100%;
+  }
+}
+
 .design .text h2{
   font-weight: normal;
   text-transform: uppercase;
