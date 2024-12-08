@@ -387,6 +387,8 @@ header .form i {
 
 .design .text{
   color: #fefbfc;
+  background-color: var(--transparent-color);
+  padding: 50px;
 }
 
 .design .text h2{
