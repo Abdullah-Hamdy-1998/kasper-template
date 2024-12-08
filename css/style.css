@@ -361,6 +361,7 @@ header .form i {
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .design::before {
@@ -376,6 +377,12 @@ header .form i {
 .design .image, .design .text {
   position: relative;
   z-index: 2;
+  flex: 1;
+}
+
+.design .image{
+  text-align: center;
+  top: 150px;
 }
 
 /* End Design */
