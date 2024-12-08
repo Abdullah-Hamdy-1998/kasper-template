@@ -359,6 +359,7 @@ header .form i {
   background-size: cover;
   height: 600px;
   position: relative;
+  display: flex;
 }
 
 .design::before {
