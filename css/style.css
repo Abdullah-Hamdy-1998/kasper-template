@@ -299,7 +299,7 @@ header .form i {
 .landing .bullets li {
   width: 20px;
   height: 20px;
-  border: 1px solid white;
+  border: 1px solid #fefbfc;
   border-radius: 50%;
 }
 
@@ -383,6 +383,16 @@ header .form i {
 .design .image{
   text-align: center;
   top: 150px;
+}
+
+.design .text{
+  color: #fefbfc;
+}
+
+.design .text h2{
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 /* End Design */
