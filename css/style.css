@@ -401,4 +401,10 @@ header .form i {
   margin-bottom: 20px;
 }
 
+.design .text li::before{
+  font-family: 'Font Awesome 6 Free';
+  content: '\e163';
+  font-weight: 900;
+}
+
 /* End Design */
