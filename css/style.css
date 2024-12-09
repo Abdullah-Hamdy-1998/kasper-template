@@ -422,4 +422,9 @@ header .form i {
   padding: 100px 0;
 }
 
+.portfolio .shuffle{
+  display: flex;
+  justify-content: center;
+}
+
 /* End Design */
