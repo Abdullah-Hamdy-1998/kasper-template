@@ -380,12 +380,12 @@ header .form i {
   flex: 1;
 }
 
-.design .image{
+.design .image {
   text-align: center;
   top: 150px;
 }
 
-.design .text{
+.design .text {
   color: #fefbfc;
   background-color: var(--transparent-color);
   padding: 50px;
@@ -401,30 +401,41 @@ header .form i {
   }
 }
 
-.design .text h2{
+.design .text h2 {
   font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
-.design .text li{
+.design .text li {
   margin-bottom: 20px;
 }
 
-.design .text li::before{
+.design .text li::before {
   font-family: 'Font Awesome 6 Free';
   content: '\e163';
   font-weight: 900;
   margin-right: 20px;
 }
 
-.portfolio{
+.portfolio {
   padding: 100px 0;
 }
 
-.portfolio .shuffle{
+.portfolio .shuffle {
   display: flex;
   justify-content: center;
+}
+
+.portfolio .shuffle li {
+  text-transform: uppercase;
+  margin-right: 20px;
+  padding: 10px 30px;
+}
+
+.portfolio .shuffle .active {
+  color: #fefbfc;
+  background-color: #00c7fc;
 }
 
 /* End Design */
