@@ -444,8 +444,16 @@ header .form i {
   margin-top: 60px;
 }
 
-.portfolio .images-container .box {
-  flex-basis: 25%;
+@media (min-width: 768px) {
+  .portfolio .images-container .box {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio .images-container .box {
+    flex-basis: 25%;
+  }
 }
 
 .portfolio .images-container .box img {
