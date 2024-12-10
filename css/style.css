@@ -438,9 +438,17 @@ header .form i {
   background-color: #00c7fc;
 }
 
-.portfolio .images-container{
+.portfolio .images-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio .images-container .box {
+  flex-basis: 25%;
+}
+
+.portfolio .images-container .box img {
+  max-width: 100%;
 }
 
 /* End Design */
