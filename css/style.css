@@ -441,6 +441,7 @@ header .form i {
 .portfolio .images-container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 
 .portfolio .images-container .box {
