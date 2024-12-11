@@ -444,6 +444,11 @@ header .form i {
   margin-top: 60px;
 }
 
+.portfolio .images-container .box {
+  overflow: hidden;
+  position: relative;
+}
+
 @media (min-width: 768px) {
   .portfolio .images-container .box {
     flex-basis: 50%;
@@ -462,6 +467,13 @@ header .form i {
 
 .portfolio .box .caption {
   padding: 20px;
+}
+
+.portfolio .box .caption {
+  position: absolute;
+  background-color: #fefbfc;
+  width: 100%;
+  left: 0;
 }
 
 .portfolio .box .caption h4 {
