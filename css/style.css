@@ -466,14 +466,17 @@ header .form i {
 }
 
 .portfolio .box .caption {
-  padding: 20px;
-}
-
-.portfolio .box .caption {
   position: absolute;
+  left: 0;
+  padding: 20px;
   background-color: #fefbfc;
   width: 100%;
-  left: 0;
+  transition: 0.3s;
+  bottom: -100%;
+}
+
+.portfolio .box:hover .caption {
+  bottom: 0;
 }
 
 .portfolio .box .caption h4 {
