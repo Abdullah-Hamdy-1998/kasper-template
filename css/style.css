@@ -464,4 +464,12 @@ header .form i {
   padding: 20px;
 }
 
+.portfolio .box .caption h4 {
+  font-weight: normal;
+}
+
+.portfolio .box .caption p {
+  color: #00c7fc;
+}
+
 /* End Design */
