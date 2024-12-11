@@ -463,6 +463,11 @@ header .form i {
 
 .portfolio .images-container .box img {
   max-width: 100%;
+  transition: 0.3s;
+}
+
+.portfolio .box:hover img {
+  transform: rotate(3deg) scale(1.1);
 }
 
 .portfolio .box .caption {
