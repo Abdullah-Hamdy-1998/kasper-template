@@ -460,4 +460,8 @@ header .form i {
   max-width: 100%;
 }
 
+.portfolio .box .caption {
+  padding: 20px;
+}
+
 /* End Design */
