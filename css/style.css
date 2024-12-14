@@ -505,3 +505,17 @@ header .form i {
 }
 
 /* End Design */
+
+
+/* Start Video */
+
+.video {
+  height: 600px;
+  overflow: hidden;
+}
+
+.video video {
+  width: 100%;
+}
+
+/* End Video */
