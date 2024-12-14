@@ -536,6 +536,8 @@ header .form i {
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
+  background-color: var(--transparent-color);
+  padding: 40px;
 }
 
 /* End Video */
