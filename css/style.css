@@ -552,4 +552,14 @@ header .form i {
   margin-bottom: 30px;
 }
 
+
+.video .text button {
+  color: #fefbfc;
+  background-color: #292929;
+  padding: 10px 25px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 /* End Video */
