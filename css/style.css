@@ -493,4 +493,15 @@ header .form i {
   color: #00c7fc;
 }
 
+.portfolio .btn {
+  color: #fefbfc;
+  background-color: #00c7fc;
+  padding: 10px 40px;
+  border: none;
+  text-transform: uppercase;
+  margin: 60px auto;
+  display: block;
+  cursor: pointer;
+}
+
 /* End Design */
