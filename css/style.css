@@ -546,4 +546,10 @@ header .form i {
   font-weight: 400;
   margin-bottom: 30px;
 }
+
+.video .text p {
+  color: #fefbfc;
+  margin-bottom: 30px;
+}
+
 /* End Video */
