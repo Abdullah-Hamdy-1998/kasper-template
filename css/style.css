@@ -560,8 +560,12 @@ header .form i {
 /* End Video */
 
 /* Start About */
-.about{
+.about {
   padding-top: 100px;
 }
 
+.about .image {
+  display: flex;
+  justify-content: center;
+}
 /* End About */
