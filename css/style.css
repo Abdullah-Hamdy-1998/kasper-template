@@ -510,12 +510,20 @@ header .form i {
 /* Start Video */
 
 .video {
+  position: relative;
   height: 600px;
   overflow: hidden;
 }
 
 .video video {
   width: 100%;
+}
+
+.video .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* End Video */
