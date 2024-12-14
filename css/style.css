@@ -540,4 +540,10 @@ header .form i {
   padding: 40px;
 }
 
+.video .text h2 {
+  color: #fefbfc;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
 /* End Video */
