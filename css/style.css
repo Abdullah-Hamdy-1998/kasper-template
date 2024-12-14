@@ -567,5 +567,6 @@ header .form i {
 .about .image {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 /* End About */
