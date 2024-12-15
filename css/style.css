@@ -677,6 +677,20 @@ header .form i {
   padding: 100px 0;
 }
 
+.skills .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills .testimonials-content {
+  flex-basis: 45%;
+}
+
+.skills .skills-content {
+  flex-basis: 45%;
+}
+
 .skills .testimonial img {
   width: 80px;
   background-color: #cbcbcb;
