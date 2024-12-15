@@ -588,7 +588,7 @@ header .form i {
   position: relative;
 }
 
-.statistics::before{
+.statistics::before {
   content: '';
   position: absolute;
   top: 0;
@@ -598,10 +598,35 @@ header .form i {
   background-color: rgb(0 0 0 / 30%);
 }
 
-.statistics .container{
+.statistics .container {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.statistics .stat {
+  background-color: var(--transparent-color);
+  position: relative;
+  padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  .statistics .stat {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .statistics .stat {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .statistics .stat {
+    flex-basis: 25%;
+  }
 }
 
 /* End Statistics */
