@@ -673,7 +673,11 @@ header .form i {
 
 /* Start Skills & Testimonials */
 
-.testimonial img {
+.skills {
+  padding: 100px 0;
+}
+
+.skills .testimonial img {
   width: 80px;
   background-color: #cbcbcb;
   border-radius: 50%;
