@@ -247,6 +247,7 @@ header .form i {
 @media (max-width: 767px) {
   .landing .text {
     width: 100%;
+    padding: 35px;
   }
 
   .landing .content {
