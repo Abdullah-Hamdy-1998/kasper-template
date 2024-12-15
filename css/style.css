@@ -698,6 +698,13 @@ header .form i {
   margin-bottom: 30px;
 }
 
+.skills .container div>p {
+  color: #777;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 60px;
+}
+
 .skills .testimonial img {
   width: 80px;
   background-color: #cbcbcb;
