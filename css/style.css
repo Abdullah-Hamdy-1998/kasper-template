@@ -347,6 +347,7 @@ header .form i {
 .services .service i {
   min-width: 70px;
   text-align: center;
+  color: #292929;
 }
 
 .services .service h3 {
@@ -528,7 +529,7 @@ header .form i {
 
 .video {
   position: relative;
-  height: 900px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -648,7 +649,14 @@ header .form i {
 }
 
 .statistics .stat i {
-  margin-bottom: 30px;
+  background-color: #292929;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
 }
 
 .statistics .text h2 {
