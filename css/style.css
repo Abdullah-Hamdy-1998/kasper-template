@@ -691,6 +691,13 @@ header .form i {
   flex-basis: 45%;
 }
 
+.skills .container div>h3 {
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 .skills .testimonial img {
   width: 80px;
   background-color: #cbcbcb;
