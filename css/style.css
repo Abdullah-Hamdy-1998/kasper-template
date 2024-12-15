@@ -698,11 +698,17 @@ header .form i {
   margin-bottom: 30px;
 }
 
-.skills .container>div>p:first-of-type {
+.skills .container>div>p {
   color: #777;
   text-align: center;
   line-height: 2;
   margin-bottom: 60px;
+}
+
+.skills .testimonial {
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
 
 .skills .testimonial img {
