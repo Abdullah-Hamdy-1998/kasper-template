@@ -668,4 +668,15 @@ header .form i {
 .statistics .text p {
   font-size: 14px;
 }
+
 /* End Statistics */
+
+/* Start Skills & Testimonials */
+
+.testimonial img {
+  width: 80px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+}
+
+/* End Skills & Testimonials */
