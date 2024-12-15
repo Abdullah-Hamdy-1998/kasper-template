@@ -656,4 +656,7 @@ header .form i {
   font-size: 40px;
 }
 
+.statistics .text p {
+  font-size: 14px;
+}
 /* End Statistics */
