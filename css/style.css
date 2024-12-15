@@ -691,14 +691,14 @@ header .form i {
   flex-basis: 45%;
 }
 
-.skills .container div>h3 {
+.skills .container>div>h3 {
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 
-.skills .container div>p {
+.skills .container>div>p:first-of-type {
   color: #777;
   text-align: center;
   line-height: 2;
