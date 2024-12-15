@@ -626,6 +626,7 @@ header .form i {
   background-color: var(--transparent-color);
   position: relative;
   padding: 50px 0;
+  color: #fefbfc;
 }
 
 @media (max-width: 767px) {
@@ -644,6 +645,15 @@ header .form i {
   .statistics .stat {
     flex-basis: 25%;
   }
+}
+
+.statistics .stat i {
+  margin-bottom: 30px;
+}
+
+.statistics .text h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
 }
 
 /* End Statistics */
