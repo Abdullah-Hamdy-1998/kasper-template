@@ -587,4 +587,10 @@ header .form i {
   background-position: right;
 }
 
+.statistics .container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
 /* End Statistics */
