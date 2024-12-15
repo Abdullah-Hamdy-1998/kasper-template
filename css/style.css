@@ -683,12 +683,14 @@ header .form i {
   flex-wrap: wrap;
 }
 
-.skills .testimonials-content {
-  flex-basis: 45%;
-}
+@media (min-width: 992px) {
+  .skills .testimonials-content {
+    flex-basis: 45%;
+  }
 
-.skills .skills-content {
-  flex-basis: 45%;
+  .skills .skills-content {
+    flex-basis: 45%;
+  }
 }
 
 .skills .container>div>h3 {
