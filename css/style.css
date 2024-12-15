@@ -433,6 +433,13 @@ header .form i {
   padding: 10px 30px;
 }
 
+@media (max-width: 767px) {
+  .portfolio .shuffle li {
+    margin-right: 0;
+    padding: 10px 10px;
+  }
+}
+
 .portfolio .shuffle .active {
   color: #fefbfc;
   background-color: #00c7fc;
