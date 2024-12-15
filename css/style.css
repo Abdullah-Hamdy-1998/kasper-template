@@ -315,11 +315,14 @@ header .form i {
   padding: 100px 0;
 }
 
-.services-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  column-gap: 100px;
-  row-gap: 70px;
+@media (min-width: 768px) {
+
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    column-gap: 100px;
+    row-gap: 70px;
+  }
 }
 
 .services .service {
@@ -328,6 +331,13 @@ header .form i {
 }
 
 @media (max-width: 767px) {
+
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
   .services .service {
     flex-direction: column;
     text-align: center;
