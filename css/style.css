@@ -570,7 +570,7 @@ header .form i {
   overflow: hidden;
 }
 
-.about .image img{
+.about .image img {
   position: relative;
   margin-top: -100px;
   bottom: -100px;
@@ -578,3 +578,13 @@ header .form i {
 }
 
 /* End About */
+
+/* Start Statistics */
+.statistics {
+  padding: 100px 0;
+  background-image: url(../images/statistics.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+/* End Statistics */
