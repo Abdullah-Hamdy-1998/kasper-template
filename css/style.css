@@ -753,4 +753,34 @@ header .form i {
   height: 30px;
 }
 
+.skills .progress span {
+  display: block;
+  background-color: #00c7fc;
+  height: 30px;
+  position: relative;
+}
+
+.skills .progress span::before {
+  content: attr(data-percent);
+  position: absolute;
+  width: 40px;
+  top: -40px;
+  right: -18px;
+  padding: 4px 0;
+  background-color: #292929;
+  color: #fefbfc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.skills .progress span::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #292929 transparent transparent transparent;
+  border-width: 8px;
+  top: -15px;
+  right: -7px;
+}
+
 /* End Skills & Testimonials */
