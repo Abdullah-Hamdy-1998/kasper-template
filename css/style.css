@@ -738,6 +738,29 @@ header .form i {
   border-radius: 50%;
 }
 
+.skills .testimonials-content {
+  position: relative;
+}
+
+.skills .testimonials-content .bullets {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 0;
+}
+
+.skills .testimonials-content .bullets li {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+}
+
+.skills .testimonials-content .bullets .active {
+  background-color: #00c7fc;
+  border-color: #00c7fc;
+}
+
 .skills .skills-content .bar {
   margin-bottom: 40px;
 }
