@@ -738,12 +738,17 @@ header .form i {
   border-radius: 50%;
 }
 
+.skills .skills-content .bar {
+  margin-bottom: 40px;
+}
+
 .skills .skills-content .bar>h4 {
   font-weight: normal;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
-.skills .bar .progress{
+.skills .bar .progress {
   background-color: #dedadc;
   height: 30px;
 }
