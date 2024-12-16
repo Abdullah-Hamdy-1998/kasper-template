@@ -738,4 +738,9 @@ header .form i {
   border-radius: 50%;
 }
 
+.skills .skills-content .bar>h4 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 /* End Skills & Testimonials */
