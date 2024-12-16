@@ -743,4 +743,9 @@ header .form i {
   text-transform: uppercase;
 }
 
+.skills .bar .progress{
+  background-color: #dedadc;
+  height: 30px;
+}
+
 /* End Skills & Testimonials */
