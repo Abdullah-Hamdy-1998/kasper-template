@@ -811,7 +811,14 @@ header .form i {
 .quote {
   padding: 100px 0;
   text-align: center;
-  /* color: #fefbfc; */
+  color: #fefbfc;
+  background-image: url(../images/1920-abstract-futuristic-floor-with-hexagons-background-3d-rendering.jpg);
+}
+
+.quote .content {
+  background-color: var(--transparent-color);
+  padding: 40px 10px;
+  border-radius: 5px;
 }
 
 .quote q {
