@@ -852,4 +852,10 @@ header .form i {
   padding: 100px 0;
 }
 
+.pricing .prices {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: 30px;
+}
+
 /* End Pricing */
