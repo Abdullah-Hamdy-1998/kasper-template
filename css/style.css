@@ -807,3 +807,35 @@ header .form i {
 }
 
 /* End Skills & Testimonials */
+/* Start Quote */
+.quote {
+  padding: 100px 0;
+  text-align: center;
+  /* color: #fefbfc; */
+}
+
+.quote q {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.quote q::before {
+  content: '\f10d';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+}
+
+.quote q::after {
+  content: '\f10e';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 16px;
+  position: relative;
+  bottom: 10px;
+}
+
+/* End Quote */
