@@ -863,4 +863,9 @@ header .form i {
   text-align: center;
 }
 
+.pricing .plan .header {
+  border-top: 1px solid #00c7fc;
+  border-bottom: 1px solid #00c7fc;
+}
+
 /* End Pricing */
