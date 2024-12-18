@@ -890,6 +890,13 @@ header .form i {
   top: -40px;
 }
 
+.pricing .plan .header>span::after {
+  content: '/MO';
+  position: relative;
+  font-size: 20px;
+  right: -15px;
+}
+
 .pricing .plan .body {
   border-bottom: 1px solid var(--main-color);
 }
