@@ -881,6 +881,15 @@ header .form i {
   font-weight: bold;
 }
 
+.pricing .plan .header>span::before {
+  content: '$';
+  position: relative;
+  font-size: 25px;
+  font-weight: normal;
+  margin-right: 15px;
+  top: -40px;
+}
+
 .pricing .plan .body {
   border-bottom: 1px solid var(--main-color);
 }
