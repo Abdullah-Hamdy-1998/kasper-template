@@ -869,6 +869,13 @@ header .form i {
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
+
+.pricing .plan .header>h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
 .pricing .plan .body {
   border-bottom: 1px solid var(--main-color);
 }
