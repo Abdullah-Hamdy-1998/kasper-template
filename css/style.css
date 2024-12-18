@@ -885,4 +885,8 @@ header .form i {
   border-bottom: 1px solid var(--main-color);
 }
 
+.pricing .body ul li {
+  padding: 20px;
+}
+
 /* End Pricing */
