@@ -887,6 +887,18 @@ header .form i {
 
 .pricing .body ul li {
   padding: 20px;
+  position: relative;
+}
+
+.pricing .body ul li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background-color: var(--main-color);
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* End Pricing */
