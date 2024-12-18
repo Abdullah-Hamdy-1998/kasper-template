@@ -891,7 +891,7 @@ header .form i {
 }
 
 .pricing .plan .header>span::after {
-  content: '/MO';
+  content: '/Mo';
   position: relative;
   font-size: 20px;
   right: -15px;
