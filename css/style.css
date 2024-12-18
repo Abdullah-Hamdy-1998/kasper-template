@@ -876,6 +876,11 @@ header .form i {
   margin-bottom: 20px;
 }
 
+.pricing .plan .header>span {
+  font-size: 60px;
+  font-weight: bold;
+}
+
 .pricing .plan .body {
   border-bottom: 1px solid var(--main-color);
 }
