@@ -901,4 +901,13 @@ header .form i {
   transform: translateX(-50%);
 }
 
+.pricing .footer a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--main-color);
+  width: fit-content;
+  padding: 20px;
+  margin: 30px auto;
+}
+
 /* End Pricing */
