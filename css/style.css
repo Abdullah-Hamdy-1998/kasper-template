@@ -1,6 +1,7 @@
 /* Start Variables */
 :root {
   --main-color: #00c7fc;
+  --white: #fcfcfc;
   --transparent-color: rgb(15 116 145 /70%)
 }
 
@@ -860,7 +861,7 @@ header .form i {
 }
 
 .pricing .plans .plan {
-  background-color: #fcfcfc;
+  background-color: var(--white);
   text-align: center;
 }
 
@@ -935,7 +936,7 @@ header .form i {
 .pricing .contact-link {
   display: block;
   text-decoration: none;
-  color: #fcfcfc;
+  color: var(--white);
   background-color: var(--main-color);
   width: fit-content;
   padding: 15px 30px;
@@ -951,8 +952,9 @@ header .form i {
   background-size: cover;
 }
 
-.subscribe .container{
+.subscribe .container {
   display: flex;
-  color: #fcfcfc;
+  color: var(--white);
 }
+
 /* End Subscribe */
