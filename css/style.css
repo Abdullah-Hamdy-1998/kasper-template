@@ -959,6 +959,7 @@ header .form i {
 
 .subscribe form input[type="email"] {
   background: none;
+  caret-color: var(--main-color);
 }
 
 /* End Subscribe */
