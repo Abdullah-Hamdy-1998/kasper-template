@@ -957,4 +957,8 @@ header .form i {
   color: var(--white);
 }
 
+.subscribe form input[type="email"] {
+  background: none;
+}
+
 /* End Subscribe */
