@@ -951,4 +951,8 @@ header .form i {
   background-size: cover;
 }
 
+.subscribe .container{
+  display: flex;
+  color: #fcfcfc;
+}
 /* End Subscribe */
