@@ -947,6 +947,8 @@ header .form i {
 /* Start Subscribe */
 .subscribe {
   padding: 100px 0;
+  background-image: url(../images/rachel-loughman-ePOXA9cwxac-unsplash.jpg);
+  background-size: cover;
 }
 
 /* End Subscribe */
