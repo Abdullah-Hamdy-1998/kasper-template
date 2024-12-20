@@ -998,6 +998,10 @@ header .form i {
   color: var(--white);
 }
 
+.subscribe form input[type="email"] {
+  color: var(--white);
+}
+
 .subscribe p {
   line-height: 2;
   margin-left: 50px;
