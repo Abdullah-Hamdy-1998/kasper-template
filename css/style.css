@@ -1038,6 +1038,10 @@ header .form i {
   flex-basis: 70%;
 }
 
+.contact .content .info {
+  flex-basis: 25%;
+}
+
 .contact .field {
   display: block;
   padding: 20px 0;
