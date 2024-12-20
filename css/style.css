@@ -959,6 +959,9 @@ header .form i {
 
 .subscribe form {
   position: relative;
+  display: flex;
+  width: 500px;
+  max-width: 100%;
 }
 
 .subscribe form i {
@@ -973,6 +976,17 @@ header .form i {
   background: none;
   caret-color: var(--main-color);
   padding: 20px 20px 20px 60px;
+  width: calc(100% - 130px);
+}
+
+.subscribe form input[type="submit"] {
+  width: 130px;
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-left: none;
+  text-transform: uppercase;
 }
 
 .subscribe form input[type="email"]:focus,
