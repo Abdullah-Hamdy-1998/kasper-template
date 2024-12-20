@@ -982,9 +982,9 @@ header .form i {
 .subscribe form input[type="submit"] {
   width: 130px;
   background-color: var(--main-color);
-  color: white;
+  color: var(--white);
   padding: 10px 20px;
-  border: 1px solid white;
+  border: 1px solid var(--white);
   border-left: none;
   text-transform: uppercase;
 }
@@ -995,7 +995,7 @@ header .form i {
 }
 
 .subscribe form ::placeholder {
-  color: white;
+  color: var(--white);
 }
 
 .subscribe p {
