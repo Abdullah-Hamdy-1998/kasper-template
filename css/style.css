@@ -975,4 +975,13 @@ header .form i {
   padding: 20px 20px 20px 60px;
 }
 
+.subscribe form input[type="email"]:focus,
+.subscribe form input[type="submit"]:focus {
+  outline: none;
+}
+
+.subscribe form ::placeholder {
+  color: white;
+}
+
 /* End Subscribe */
