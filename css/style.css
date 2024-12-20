@@ -957,6 +957,17 @@ header .form i {
   color: var(--white);
 }
 
+.subscribe form {
+  position: relative;
+}
+
+.subscribe form i {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
 .subscribe form input[type="email"] {
   border: 1px solid var(--white);
   background: none;
