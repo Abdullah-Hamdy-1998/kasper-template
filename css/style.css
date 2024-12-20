@@ -1033,4 +1033,8 @@ header .form i {
   display: flex;
   justify-content: space-between;
 }
+
+.contact .content form {
+  flex-basis: 70%;
+}
 /* End Contact */
