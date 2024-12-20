@@ -998,4 +998,9 @@ header .form i {
   color: white;
 }
 
+.subscribe p {
+  line-height: 2;
+  margin-left: 50px;
+}
+
 /* End Subscribe */
