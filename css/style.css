@@ -1008,4 +1008,18 @@ header .form i {
   margin-left: 50px;
 }
 
+@media (max-width: 991px) {
+  .subscribe .container {
+    flex-direction: column;
+  }
+
+  .subscribe form {
+    width: 100%;
+  }
+
+  .subscribe p {
+    margin: 20px 0 0;
+  }
+}
+
 /* End Subscribe */
