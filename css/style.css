@@ -1028,4 +1028,9 @@ header .form i {
 .contact {
   padding: 100px 0;
 }
+
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
 /* End Contact */
