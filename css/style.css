@@ -1044,7 +1044,7 @@ header .form i {
 
 .contact .field {
   display: block;
-  padding: 20px 0;
+  padding: 20px 0 20px 20px;
   width: 100%;
   border: 1px solid #ccc;
   margin-bottom: 30px;
