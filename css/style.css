@@ -1081,4 +1081,27 @@ header .form i {
   color: #777;
 }
 
+@media (max-width: 767px) {
+  .contact .content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact .content form {
+    flex-basis: 100%;
+  }
+
+  .contact .content .info {
+    flex-basis: 100%;
+    order: -1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact .info div:nth-of-type(2) h4 {
+    margin-top: 0;
+  }
+
+}
+
 /* End Contact */
