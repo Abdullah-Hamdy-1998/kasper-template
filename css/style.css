@@ -1050,4 +1050,8 @@ header .form i {
   margin-bottom: 30px;
 }
 
+.contact textarea.field {
+  height: 200px;
+}
+
 /* End Contact */
