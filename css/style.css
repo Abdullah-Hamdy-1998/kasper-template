@@ -1046,5 +1046,7 @@ header .form i {
   display: block;
   padding: 20px 0;
   width: 100%;
+  border: 1px solid #ccc;
 }
+
 /* End Contact */
