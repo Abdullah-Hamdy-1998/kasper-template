@@ -1122,6 +1122,7 @@ header .form i {
   border-bottom: 1px solid #fefbfc;
   padding: 10px 0;
   width: fit-content;
+  margin: 0 auto 10px;
 }
 
 /* End Footer */
