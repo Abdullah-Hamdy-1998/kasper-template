@@ -1105,3 +1105,11 @@ header .form i {
 }
 
 /* End Contact */
+
+/* Start Footer */
+.footer {
+  background-color: #292929;
+  color: #fefbfc;
+  padding: 50px 0;
+}
+/* End Footer */
