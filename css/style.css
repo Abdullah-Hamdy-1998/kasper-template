@@ -1127,4 +1127,10 @@ header .form i {
   font-size: 18px;
 }
 
+.footer .social-icons i {
+  font-size: 12px;
+  margin: 0 8px 60px;
+  cursor: pointer;
+}
+
 /* End Footer */
