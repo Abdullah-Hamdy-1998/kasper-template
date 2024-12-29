@@ -1113,4 +1113,9 @@ header .form i {
   padding: 50px 0;
   text-align: center;
 }
+
+.footer img {
+  margin-bottom: 30px;
+}
+
 /* End Footer */
