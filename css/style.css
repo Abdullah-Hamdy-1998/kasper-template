@@ -1121,6 +1121,7 @@ header .form i {
 .footer p:not(.copyright) {
   border-bottom: 1px solid #fefbfc;
   padding: 10px 0;
+  width: fit-content;
 }
 
 /* End Footer */
