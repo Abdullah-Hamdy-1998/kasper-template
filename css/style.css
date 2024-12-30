@@ -186,6 +186,7 @@ header nav a {
 @media (max-width: 767px) {
   header nav a {
     padding: 30px 15px;
+    background-color: rgba(12, 44, 53, 0.9);
   }
 }
 
