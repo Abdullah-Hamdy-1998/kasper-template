@@ -925,6 +925,7 @@ header .form i {
   width: fit-content;
   padding: 15px 30px;
   margin: 30px auto;
+  color: black;
 }
 
 .pricing .contact-text {
