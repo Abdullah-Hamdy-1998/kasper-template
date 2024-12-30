@@ -2,7 +2,7 @@
 :root {
   --main-color: #00c7fc;
   --white: #fcfcfc;
-  --transparent-color: rgb(15 116 145 /70%)
+  --transparent-color: rgb(15 116 145 /70%);
 }
 
 /* End Variables*/
@@ -185,7 +185,7 @@ header nav a {
 
 @media (max-width: 767px) {
   header nav a {
-    padding: 30px 0;
+    padding: 30px 15px;
   }
 }
 
