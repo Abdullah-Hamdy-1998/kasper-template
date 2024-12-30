@@ -918,7 +918,7 @@ header .form i {
   transform: translateX(-50%);
 }
 
-.pricing .footer a {
+.pricing .pricing-footer a {
   display: block;
   text-decoration: none;
   border: 1px solid var(--main-color);
